@@ -63,10 +63,10 @@ module.exports = {
   getWikiImage
 }
 // Test
-getWikiIntro('JavaScript')
-  .then((result) => console.log(result))
-  .catch((error) => console.error(error));
+// getWikiIntro('JavaScript')
+//   .then((result) => console.log(result))
+//   .catch((error) => console.error(error));
 
-getWikiImage('JavaScript')
-  .then((result) => console.log(result))
-  .catch((error) => console.error(error));
+// getWikiImage('JavaScript')
+//   .then((result) => console.log(result))
+//   .catch((error) => console.error(error));

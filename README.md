@@ -25,7 +25,7 @@ Success	200 OK\
 Failure	404 Not Found        No article with the provided title exists\
 
 Response Examples: \
-   Success:
+   Success: \
     Request:
     GET https://wiki-scraper-microservice.wl.r.appspot.com/wiki/javascript \
     Response:
@@ -38,7 +38,7 @@ Response Examples: \
     }
 
 
-   Failure:
+   Failure: \
     Request:
     GET https://wiki-scraper-microservice.wl.r.appspot.com/wiki/something_imaginary \
     Response:

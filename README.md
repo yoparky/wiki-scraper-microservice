@@ -21,14 +21,13 @@ Response Body Format:\
     JSON
 
 Response Statuses:\
-Success	200 OK\	
+Success	200 OK\
 Failure	404 Not Found        No article with the provided title exists\
 
-Response Examples:\
-
+Response Examples: \
    Success:
     Request:
-    GET https://wiki-scraper-microservice.wl.r.appspot.com/wiki/javascript
+    GET https://wiki-scraper-microservice.wl.r.appspot.com/wiki/javascript \
     Response:
     Status: 200 OK
 
@@ -41,7 +40,7 @@ Response Examples:\
 
    Failure:
     Request:
-    GET https://wiki-scraper-microservice.wl.r.appspot.com/wiki/something_imaginary
+    GET https://wiki-scraper-microservice.wl.r.appspot.com/wiki/something_imaginary \
     Response:
     Status: 404 Not Found
 

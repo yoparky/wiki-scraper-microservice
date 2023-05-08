@@ -7,24 +7,24 @@ Version	Change	Date
 
 This microservice allows you to send http get requests to get a response that contains the summary part of a given article, as well as the associated main image.
 ==========================================================================================================================================
-Get an article scraped:
+#Get an article scraped:
 
     GET /wiki/:article_title
 
-Path Parameters:\
+##Path Parameters:\
     :article_title        title of the Wikipedia article to scrape.
 
-Request Body:\
+##Request Body:\
     None
 
-Response Body Format:\
+##Response Body Format:\
     JSON
 
-Response Statuses:\
+##Response Statuses:\
 Success	200 OK\
 Failure	404 Not Found        No article with the provided title exists\
 
-Response Examples: \
+##Response Examples: \
    Success: \
     Request:
     GET https://wiki-scraper-microservice.wl.r.appspot.com/wiki/javascript \
@@ -47,3 +47,5 @@ Response Examples: \
     {    
     "Error": "No article with the provided title exists"
     }
+![image0](https://user-images.githubusercontent.com/110791629/236732401-74ebe628-0a88-487b-927a-43e8bed375c2.jpeg)
+
